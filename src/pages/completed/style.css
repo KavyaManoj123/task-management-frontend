@@ -1,0 +1,27 @@
+.cmpltpage{
+    display: flex;
+}
+body{
+    background-color: white;
+}
+.taskList{
+    width: 100%;
+    height: 614px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+.cardbox{
+    background-color: white;
+    width: 220px;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+.taskList h1{
+    margin-bottom: 20px;
+}

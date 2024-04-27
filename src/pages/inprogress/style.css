@@ -1,0 +1,17 @@
+.inProgressPage{
+    display: flex;
+}
+.boxcard{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.singlecard{
+    background-color: white;
+    width: 220px;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+
+}

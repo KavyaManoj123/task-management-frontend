@@ -1,0 +1,49 @@
+.taskPageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* width: 800px; */
+}
+
+.taskPageContent {
+  display: flex;
+  flex: 1;
+  background-color: white;
+}
+
+.taskList {
+  gap: 20px;
+  padding: 20px;
+  background-color: #f1f0f0;
+  box-sizing: border-box;
+}
+
+.singleCard {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.taskCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 220px;
+}
+
+.taskCard h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.taskCard p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+.taskbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}

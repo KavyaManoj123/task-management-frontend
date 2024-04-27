@@ -1,0 +1,30 @@
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #dad7d7;
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.taskTable th,
+.taskTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.taskTable th {
+  background-color: #ffffff;
+}
+
+
+.disgn {
+  display: flex;
+  flex: 1;
+}
+
